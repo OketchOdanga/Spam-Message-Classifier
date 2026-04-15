@@ -90,7 +90,7 @@ if st.button("Classify", type="primary"):
             st.success(f" **Not Spam** (confidence: {proba[0]:.2%})")
 
 # Optional: show model info
-with st.expander("ℹ️ About this app"):
+with st.expander("About this app"):
     st.markdown("""
     - **Dataset**: SMS Spam Collection (5,574 messages)
     - **Preprocessing**: lowercasing, punctuation removal, digit removal
